@@ -1,0 +1,273 @@
+/* linking google font  */
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+/* core style */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.heading-h1 {
+  font-size: 10rem;
+}
+
+.heading-h2 {
+  font-size: 2.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #eaeaea;
+  margin: 0;
+  font-weight: 400;
+  padding: 0;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+#bg-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("images/bgimage.jpg");
+  top: 0px;
+  left: 0px;
+  height: 500px;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+
+header {
+  text-align: center;
+  position: relative;
+  min-height: 500px;
+}
+
+#main-nav {
+  background-color: #111;
+  opacity: 0.7;
+  overflow: hidden;
+}
+
+#main-nav ul li {
+  display: inline-block;
+  margin: 0 2em;
+  padding: 1.5em 1em;
+}
+
+/* links of twitter, blog and freecodecamp */
+
+span .btn {
+  display: inline-block;
+  background-color: #111;
+  padding: 1em 2em;
+  margin: 20px 2px 0px 2px;
+  transition: background 0.2s linear;
+}
+
+span .btn-twitter {
+  border: solid 3px #00aced;
+}
+
+span .btn-twitter:hover {
+  background-color: #00aced;
+}
+
+span .btn-blog {
+  border: solid 3px #3b5998;
+}
+
+span .btn-blog:hover {
+  background-color: #3b5998;
+}
+
+span .btn-freecodecamp {
+  border: solid 3px #4a2b0f;
+}
+
+span .btn-freecodecamp:hover {
+  background-color: #4a2b0f;
+}
+
+#section-a {
+  color: #222;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 2rem 3rem;
+}
+
+#intro {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#intro-heading {
+  font-family: "Brush Script MT";
+}
+
+#intro-heading h2,
+#intro-heading h2::after {
+  font-size: 4em;
+  border-bottom: dashed 2px #918d8d;
+  padding-bottom: 0.5em;
+}
+
+#intro-further {
+  display: flex;
+  margin-top: 2rem;
+}
+
+#intro-further p {
+  text-align: justify;
+  font-size: 1.5em;
+  line-height: 2;
+}
+
+#intro-further img {
+  border-radius: 50%;
+}
+
+#intro-further img {
+  width: 300px;
+  display: block;
+  margin-left: 30px;
+}
+
+#skills {
+  margin-top: 40px;
+}
+
+#skills,
+#skills span {
+  float: left;
+}
+
+#skills h3 {
+  text-align: left;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+#skills span {
+  padding: 1em 3em;
+  color: #fff;
+}
+
+#intro::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#skills span:nth-child(1) {
+  background-color: #114190;
+}
+
+span:nth-child(2) {
+  background-color: #114190;
+}
+
+#skills span:nth-child(3) {
+  background-color: #114190;
+}
+
+#skills span:nth-child(4) {
+  background-color: #114190;
+}
+
+#skills span:nth-child(5) {
+  background-color: #e11a61;
+}
+
+#skills span:nth-child(4) {
+  background-color: #9d1098;
+}
+
+#section-c {
+  background-color: #000;
+  padding: 10em 3rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.968), rgb(0, 0, 0, 0.968)),
+    url("images/map.jpg") no-repeat center / cover;
+}
+
+#info {
+  display: flex;
+  justify-content: space-between;
+}
+
+#section-c h2 {
+  font-size: 3em;
+}
+
+#section-c h2::after {
+  content: "";
+  border-bottom: dashed 2px #fff;
+  display: block;
+  padding-top: 1em;
+}
+
+#info form {
+  margin-top: 50px;
+}
+
+#info form label {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+#info form > input,
+textarea {
+  display: block;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  outline: 0;
+  padding: 1em 3em;
+}
+
+#info form label {
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 1.5em;
+}
+
+#info form input[type="text"] {
+  border-bottom: solid 5px #114190;
+}
+
+#info form input[type="email"] {
+  border-bottom: solid 5px #e11a61;
+}
+
+#info form textarea {
+  border-bottom: solid 5px #e11a61;
+}
+
+#info form .btn-send {
+  padding: 1em 3em;
+  margin-top: 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  font-size: 1.5em;
+  border: solid 3px #fff;
+}
+
+#info form .btn-send:hover {
+  background-color: #fff;
+  color: #111;
+}
+
+#icons {
+  margin-top: 50px;
+}
